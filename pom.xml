@@ -14,7 +14,7 @@
 	<name>springboot-3</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>21</java.version>
 <!--		<sonar.coverage.jacoco.xmlReportPaths>-->
 <!--			${project.basedir}/rnd-spring-boot-3/target/site/jacoco/jacoco.xml-->
 <!--		</sonar.coverage.jacoco.xmlReportPaths>-->
