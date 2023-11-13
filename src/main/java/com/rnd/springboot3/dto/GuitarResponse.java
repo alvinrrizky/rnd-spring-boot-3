@@ -1,7 +1,7 @@
 package com.rnd.springboot3.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import javax.persistence.Column;
+import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

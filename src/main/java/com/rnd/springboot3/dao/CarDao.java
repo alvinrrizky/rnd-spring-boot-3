@@ -5,7 +5,7 @@ import com.rnd.springboot3.CarResponse;
 import com.rnd.springboot3.CarUpdateRequest;
 import com.rnd.springboot3.dto.CarResponseDto;
 import com.rnd.springboot3.entity.Car;
-import javax.persistence.*;
+import jakarta.persistence.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.*;

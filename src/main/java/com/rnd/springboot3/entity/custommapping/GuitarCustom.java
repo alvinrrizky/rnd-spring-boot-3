@@ -1,6 +1,6 @@
 package com.rnd.springboot3.entity.custommapping;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
