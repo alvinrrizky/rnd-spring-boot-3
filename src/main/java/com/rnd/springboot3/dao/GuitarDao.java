@@ -1,7 +1,8 @@
 package com.rnd.springboot3.dao;
 
 import com.rnd.springboot3.entity.custommapping.GuitarCustom;
-import jakarta.persistence.*;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

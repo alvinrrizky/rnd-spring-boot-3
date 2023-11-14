@@ -2,7 +2,10 @@ package com.rnd.springboot3.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.rnd.springboot3.entity.Guitar;
-import javax.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

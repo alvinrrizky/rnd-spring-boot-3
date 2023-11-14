@@ -1,7 +1,8 @@
 package com.rnd.springboot3.dao;
 
 import com.rnd.springboot3.entity.custommapping.GuitarCustom;
-import jakarta.persistence.*;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.Query;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

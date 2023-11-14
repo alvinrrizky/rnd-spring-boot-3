@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.4</version>
+		<version>3.1.0-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rnd</groupId>
@@ -14,7 +14,7 @@
 	<name>springboot-3</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 <!--		<sonar.coverage.jacoco.xmlReportPaths>-->
 <!--			${project.basedir}/rnd-spring-boot-3/target/site/jacoco/jacoco.xml-->
 <!--		</sonar.coverage.jacoco.xmlReportPaths>-->
@@ -43,7 +43,6 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
-			<version>1.18.30</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -122,7 +121,7 @@
 		<dependency>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>0.8.11</version>
+			<version>0.8.7</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
@@ -158,22 +157,16 @@
 			</plugin>
 
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
-			</plugin>
-
-			<plugin>
 				<groupId>org.xolstice.maven.plugins</groupId>
 				<artifactId>protobuf-maven-plugin</artifactId>
 				<version>0.5.1</version>
 				<configuration>
 					<protocArtifact>
-						com.google.protobuf:protoc:3.17.3:exe:${os.detected.classifier}
+						com.google.protobuf:protoc:3.6.1:exe:${os.detected.classifier}
 					</protocArtifact>
 					<pluginId>grpc-java</pluginId>
 					<pluginArtifact>
-						io.grpc:protoc-gen-grpc-java:1.41.0:exe:${os.detected.classifier}
+						io.grpc:protoc-gen-grpc-java:1.22.1:exe:${os.detected.classifier}
 					</pluginArtifact>
 				</configuration>
 				<executions>
@@ -189,7 +182,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.11</version>
+				<version>0.8.7</version>
 				<executions>
 					<execution>
 						<goals>
